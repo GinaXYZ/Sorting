@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\FIA\\source\\repos\\Sorting\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30007871-31E1-4714-A1D0-22F18798E72A}|Sorting\\Sorting.csproj|c:\\users\\fia\\source\\repos\\sorting\\sorting\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{30007871-31E1-4714-A1D0-22F18798E72A}|Sorting\\Sorting.csproj|solutionrelative:sorting\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30007871-31E1-4714-A1D0-22F18798E72A}|Sorting\\Sorting.csproj|c:\\users\\fia\\source\\repos\\sorting\\sorting\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30007871-31E1-4714-A1D0-22F18798E72A}|Sorting\\Sorting.csproj|solutionrelative:sorting\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30007871-31E1-4714-A1D0-22F18798E72A}|Sorting\\Sorting.csproj|c:\\users\\fia\\source\\repos\\sorting\\sorting\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30007871-31E1-4714-A1D0-22F18798E72A}|Sorting\\Sorting.csproj|solutionrelative:sorting\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30007871-31E1-4714-A1D0-22F18798E72A}|Sorting\\Sorting.csproj|c:\\users\\fia\\source\\repos\\sorting\\sorting\\models\\indexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30007871-31E1-4714-A1D0-22F18798E72A}|Sorting\\Sorting.csproj|solutionrelative:sorting\\models\\indexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30007871-31E1-4714-A1D0-22F18798E72A}|Sorting\\Sorting.csproj|c:\\users\\fia\\source\\repos\\sorting\\sorting\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30007871-31E1-4714-A1D0-22F18798E72A}|Sorting\\Sorting.csproj|solutionrelative:sorting\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30007871-31E1-4714-A1D0-22F18798E72A}|Sorting\\Sorting.csproj|c:\\users\\fia\\source\\repos\\sorting\\sorting\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30007871-31E1-4714-A1D0-22F18798E72A}|Sorting\\Sorting.csproj|solutionrelative:sorting\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,21 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\FIA\\source\\repos\\Sorting\\Sorting\\Program.cs",
-              "RelativeDocumentMoniker": "Sorting\\Program.cs",
-              "ToolTip": "C:\\Users\\FIA\\source\\repos\\Sorting\\Sorting\\Program.cs",
-              "RelativeToolTip": "Sorting\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T12:09:57.751Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -52,38 +39,50 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\FIA\\source\\repos\\Sorting\\Sorting\\Program.cs",
+              "RelativeDocumentMoniker": "Sorting\\Program.cs",
+              "ToolTip": "C:\\Users\\FIA\\source\\repos\\Sorting\\Sorting\\Program.cs",
+              "RelativeToolTip": "Sorting\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T12:09:57.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "IndexViewModel.cs",
               "DocumentMoniker": "C:\\Users\\FIA\\source\\repos\\Sorting\\Sorting\\Models\\IndexViewModel.cs",
               "RelativeDocumentMoniker": "Sorting\\Models\\IndexViewModel.cs",
               "ToolTip": "C:\\Users\\FIA\\source\\repos\\Sorting\\Sorting\\Models\\IndexViewModel.cs",
               "RelativeToolTip": "Sorting\\Models\\IndexViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-01T12:09:54.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\FIA\\source\\repos\\Sorting\\Sorting\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Sorting\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\FIA\\source\\repos\\Sorting\\Sorting\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Sorting\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-01T12:09:52.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\FIA\\source\\repos\\Sorting\\Sorting\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Sorting\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\FIA\\source\\repos\\Sorting\\Sorting\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Sorting\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBgAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-01T12:08:29.859Z",
               "EditorCaption": ""

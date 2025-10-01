@@ -10,19 +10,24 @@ namespace Sorting.Controllers
         public IActionResult Index()
         {
             IndexViewModel model = new IndexViewModel();
-            model.Sorted = new List<string> { "asc", "desc" };
+            model.Sorted = string.Empty;
             return View(model);
         }
         [HttpPost]
-
         public IActionResult Index(IndexViewModel model)
         {
-            string[] names = model.Names.Split(new char[] { ',', ' ' }, StringSplitOptions.RemoveEmptyEntries);
-            List<string> nameList = names.ToList();
+            string[] names = model.Names.Split(new char[] { ',', ' ', '\r', '\n' });
 
-            model.Sorted = model.SortOrder == "asc" ?
-            nameList.OrderBy(n => n).ToList() :
-            nameList.OrderByDescending(n => n).ToList();
+            if (model.SortOrder == "asc")
+            {
+                model.Sorted = string.Join(Environment.NewLine, names.OrderBy(n => n));
+            }
+            else
+            {
+                model.Sorted = string.Join(Environment.NewLine, names.OrderByDescending(n => n));
+            }
+
+
             return View(model);
         }
     }

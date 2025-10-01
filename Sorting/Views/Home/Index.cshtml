@@ -1,4 +1,5 @@
-﻿@{
+﻿@model Sorting.Models.IndexViewModel
+@{
     ViewData["Title"] = "Sortierer";
 }
 
@@ -11,24 +12,23 @@
 </head>
 <body>
     <style>
-        .fieldset {
-            width: 250px;
-            margin: auto;
-            border: 2px solid black;
-            padding: 10px;
-		}
-
     </style>
     <fieldset>
 		<legend>Sortierer</legend>
-		<form method="post" controller="Home" action="Index">
-            <label>Vornamen</label>
-            </form>
-		<textarea name="Vornamen" rows="10" cols="30"></textarea>
+		<form method="post" asp-controller="Home" asp-action="Index">
+         <label>Vornamen</label>
+         <br />
+            
+		<textarea name="Names" rows="10" cols="30"></textarea>
         <br />
 		<button type="submit" name="Sort">Sortieren</button>
-		<input type="radio" name="SortOrder" value="asc" checked> ↑ @Model.SortOrder
-		<input type="radio" name="SortOrder" value="desc"> ↓ @Model.SortOrder
-    </fieldset>
+        <input type="radio" name="SortOrder" value="asc" checked="@(Model.SortOrder == "asc")"> ↑
+			<input type="radio" name="SortOrder" value="desc" checked="@(Model.SortOrder == "desc")"> ↓
+            <br />
+            <label>Sortiert:</label>
+            <br />
+            <textarea name="Sorted" rows="10" cols="30" readonly="readonly">@Model.Sorted</textarea>
+		</form>
+	</fieldset>
 </body>
 </html>

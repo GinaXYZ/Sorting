@@ -29,3 +29,4 @@ C:\Users\FIA\source\repos\Sorting\Sorting\obj\Debug\net8.0\refint\Sorting.dll
 C:\Users\FIA\source\repos\Sorting\Sorting\obj\Debug\net8.0\Sorting.pdb
 C:\Users\FIA\source\repos\Sorting\Sorting\obj\Debug\net8.0\Sorting.genruntimeconfig.cache
 C:\Users\FIA\source\repos\Sorting\Sorting\obj\Debug\net8.0\ref\Sorting.dll
+C:\Users\FIA\source\repos\Sorting\Sorting\obj\Debug\net8.0\Sorting.sourcelink.json
