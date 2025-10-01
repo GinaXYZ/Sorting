@@ -16,6 +16,10 @@ namespace Sorting.Controllers
         [HttpPost]
         public IActionResult Index(IndexViewModel model)
         {
+            if (model.Names == null)
+            {
+                model.Names = string.Empty;
+            }
             string[] names = model.Names.Split(new char[] { ',', ' ', '\r', '\n' });
 
             if (model.SortOrder == "asc")

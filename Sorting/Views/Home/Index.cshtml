@@ -22,8 +22,23 @@
 		<textarea name="Names" rows="10" cols="30"></textarea>
         <br />
 		<button type="submit" name="Sort">Sortieren</button>
-        <input type="radio" name="SortOrder" value="asc" checked="@(Model.SortOrder == "asc")"> ↑
+            <input type="radio" name="SortOrder" value="asc" checked="@(Model.SortOrder == "asc")"> ↑
 			<input type="radio" name="SortOrder" value="desc" checked="@(Model.SortOrder == "desc")"> ↓
+            <br />
+			<label>Schuhgröße Asc</label>
+            <input type="radio" name="SortOrder" value="sizeasc" checked="@(Model.SortOrder == "asc")"> ↑
+			<label>Schuhgröße Desc</label>
+            <input type="radio" name="SortOrder" value="sizedesc" checked="@(Model.SortOrder == "desc")"> ↓
+			<br />
+			<label>Vorname Asc</label>
+            <input type="radio" name="SortOrder" value="1nameasc" checked="@(Model.SortOrder == "asc")"> ↑
+			<label>Vorname Desc</label>
+            <input type="radio" name="SortOrder" value="1namedesc" checked="@(Model.SortOrder == "desc")"> ↓
+            <br />
+			<label>Nachname Asc</label>
+            <input type="radio" name="SortOrder" value="2nameasc" checked="@(Model.SortOrder == "asc")"> ↑
+			<label>Nachname Desc</label>
+            <input type="radio" name="SortOrder" value="2namedesc" checked="@(Model.SortOrder == "desc")"> ↓
             <br />
             <label>Sortiert:</label>
             <br />
