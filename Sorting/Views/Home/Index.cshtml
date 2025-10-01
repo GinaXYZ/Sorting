@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Sortierer";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Index"] - Sortierer</title>
+</head>
+<body>
+    <style>
+        .fieldset {
+            width: 250px;
+            margin: auto;
+            border: 2px solid black;
+            padding: 10px;
+		}
+
+    </style>
+    <fieldset>
+		<legend>Sortierer</legend>
+		<form method="post" controller="Home" action="Index">
+            <label>Vornamen</label>
+            </form>
+		<textarea name="Vornamen" rows="10" cols="30"></textarea>
+        <br />
+		<button type="submit" name="Sort">Sortieren</button>
+		<input type="radio" name="SortOrder" value="asc" checked> ↑ @Model.SortOrder
+		<input type="radio" name="SortOrder" value="desc"> ↓ @Model.SortOrder
+    </fieldset>
+</body>
+</html>
